@@ -1,0 +1,19 @@
+*{
+    background: black
+}
+
+#btn {
+    padding: 10px 20px;
+    background-color: rgb(0, 191, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn.changed {
+    background-color: lightgreen;
+    color: black;
+}
