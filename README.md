@@ -49,3 +49,44 @@ Criando um elemento HTML manipulável com CSS e JavaScript DOM
 
 🗂️ Dia 12 - 15/9/24
 Criando um card interativo com HTML e CSS, quando ao clicado, o card vira frente/verso
+
+🗂️ Dia 13 – 16/9/24
+Desenvolvendo um temporizador com HTML, CSS E JS. 
+
+Utilize uma API que captura o horário correto de onde a máquina está localizada e 
+exibe na tela
+
+🗂️ Dia 14 – 17/9/24
+Criando um toggle-button que permite alterar o tema da página para dark/light utilizando
+HTML, CSS e JavaScript
+
+🗂️ Dia 15 – 18/9/24
+Desenvolvendo um contador de caracteres com HTML, CSS E JS. O usuário insere uma
+frase e a partir daí o contador conta cada letra presente no texto.
+
+🗂️ Dia 16 – 19/9/24
+Criando um carrossel de imagens, interativo, onde as imagens mudam sozinhas, com 
+uma animação, ou mudam de acordo com a interação do usuário
+
+🗂️ Dia 17 – 20/9/24
+Criando uma aplicação simples, utilizando uma lógica de percorrer uma cadeia específica
+de caracteres para gerar uma senha aleatória com HTML, CSS E JS
+
+O projeto permite que o usuário gere a senha do tamanho que ele deseja e copie-a
+para seu clipboard no final.
+
+🗂️ Dia 18 – 21/9/24
+Desenvolvendo um jogo da velha em HTML, CSS E JS. Utilizaremos o HTML para
+organizar os elementos, o CSS para estilizar a trazer mais interatividade no game e o JS
+para criarmos a lógica por trás das combinações do jogo da velha, vitória, empate, e 
+botão de restart.
+
+🗂️ Dia 19 – 22/9/24
+Criando um app simples de previsão do tempo, utilizando uma API com JavaScriptpara
+permitir a interatividade do usuário pesquisar o local que ele deseja saber o clima, HTML
+para organizar elementos e CSS para estilizar de forma simples e moderna.
+
+🗂️ Dia 20 – 23/9/24
+Desenvolvendo um card exemplo, com um botão de vendas linkado diretamente ao Paypal
+utilizaremos um componente que a plataforma do PayPal fornece para desenvolvedores
+utilizarem em seus projetos.
