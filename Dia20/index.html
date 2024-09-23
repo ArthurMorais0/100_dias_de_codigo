@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de Venda com PayPal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script> <!-- Substitua YOUR_CLIENT_ID pelo seu client ID -->
+</head>
+<body>
+    <div class="card">
+        <img src="produto.jpg" alt="Produto" class="product-image">
+        <h2 class="product-title">Produto Exemplo</h2>
+        <p class="product-description">Descrição curta do produto.</p>
+        <span class="price">$99.99</span>
+        
+        <div id="paypal-button-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

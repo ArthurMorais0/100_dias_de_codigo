@@ -90,3 +90,41 @@ para organizar elementos e CSS para estilizar de forma simples e moderna.
 Desenvolvendo um card exemplo, com um botão de vendas linkado diretamente ao Paypal
 utilizaremos um componente que a plataforma do PayPal fornece para desenvolvedores
 utilizarem em seus projetos.
+
+🗂️ Dia 21 – 24/9/24
+
+Introdução e Instalação do Git
+
+Baixe e instale o terminal git bash através do google chrome
+
+🗂️ Dia 22 – 25/9/24
+Vinculando Git & GitHub
+
+Utilize o GIT com terminal git bash para víncular a conta do GitHub e versionar a partir daí
+
+🗂️ Dia 23 – 26/9/24
+Commit & Push
+
+Trabalhando com o terminal git bash, utilize uma pasta/projeto exemplo para realizar um commit e push
+
+🗂️ Dia 24 – 28/9/24
+Git pull
+
+Utilize o comando git pull e discuta qual a sua importante função no versionamento
+de códigos e no desenvolvimento em equipe utilizando GIT & GitHub
+
+🗂️ Dia 25 – 29/9/24
+Branches
+
+Crie uma branch em seu repositório, discuta sobre suas funcionalidades, intuitos e formas de utilizar.
+
+🗂️ Dia 26 – 30/9/24
+GitHub Fork
+
+Crie um Fork de algum repositório de terceiros através do GitHub, discuta possibilidades com esse comando.
+
+
+🗂️ Dia 27 – 1/10/24
+Estilizando o perfil do GitHub
+
+Comece a trabalhar com a parte de estilo do seu perfil no GitHub, procure fazer mudanças para causar uma boa impressão aos recrutadores
