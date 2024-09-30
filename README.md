@@ -1,8 +1,6 @@
 # 100_dias_de_codigo
 Repositorio criado para publicar as soluções dos desfio de 100 dias de codigo da Codi Academy
 
-Desafios da Semana 1: 4/9 a 8/9:
-
 🗂️Dia 1: 4/9/2024
 
 Desafio: Criar uma conta no github e configurar o repositório “100_dias_de_codigo”
@@ -25,8 +23,6 @@ Desafio: Crie uma calculadora simples que realiza operações de adição, subtr
 
 Lembre-se de exibir os resultados no console.
 
-
-SEMANA 2 9/9 a 15/9
 
 🗂️ Dia 6 - 9/9/24
 Faça um programa que calcula o fatorial de um número. (Python)
@@ -107,24 +103,54 @@ Commit & Push
 
 Trabalhando com o terminal git bash, utilize uma pasta/projeto exemplo para realizar um commit e push
 
-🗂️ Dia 24 – 28/9/24
+🗂️ Dia 24 – 27/9/24
 Git pull
 
 Utilize o comando git pull e discuta qual a sua importante função no versionamento
 de códigos e no desenvolvimento em equipe utilizando GIT & GitHub
 
-🗂️ Dia 25 – 29/9/24
+🗂️ Dia 25 – 28/9/24
 Branches
 
 Crie uma branch em seu repositório, discuta sobre suas funcionalidades, intuitos e formas de utilizar.
 
-🗂️ Dia 26 – 30/9/24
+🗂️ Dia 26 – 29/9/24
 GitHub Fork
 
 Crie um Fork de algum repositório de terceiros através do GitHub, discuta possibilidades com esse comando.
 
 
-🗂️ Dia 27 – 1/10/24
+🗂️ Dia 27 – 30/9/24
 Estilizando o perfil do GitHub
 
 Comece a trabalhar com a parte de estilo do seu perfil no GitHub, procure fazer mudanças para causar uma boa impressão aos recrutadores
+
+🗂️ Dia 28 – 1/10/24
+Readme.md
+
+Crie um Readme.md com seu nome de usuário no seu perfil do GitHub, como forma de apresentação aos visitantes de seu perfil
+
+🗂️ Dia 29 – 2/10/24
+Hospedando o Projeto com repositório GitHub
+
+Utilize a vercel, plataforma vinculadao ao github para hospedar de maneira demonstrativa algum projeto que tem em seu GitHub
+
+🗂️ Dia 30 – 3/10/24
+Trabalhando com Git no VsCode
+
+Baixe a extensão do git & github no seu VsCode e utilize comandos que aprendemos nos últimos dias de código através do mesmo, para versionar algum código exemplo
+
+🗂️ Dia 31 – 4/10/24
+React - Introdução & Instalação
+
+Instale o Node JS e pesquise sobre a criação de um projeto React com Vite, dê os primeiros no desenvolvimento do projeto através da criação do mesmo, via terminal
+
+🗂️ Dia 32 – 5/10/24
+Componentes em React
+
+Crie dentro da pastas src de sua estrutura, a pasta components e popule ela com um componente de exemplo, lembre-se de renderizar o mesmo em tela importando-o e utilizando-o app  
+
+🗂️ Dia 33 – 6/10/24
+Renderização Condicional e UseState
+
+Utilize o hook useState do React para criar uma variável de estado booleana vínculada diretamente à renderização de um componente, quando ela for true o componente é renderizado, quando false o componente não é renderizado em tela
