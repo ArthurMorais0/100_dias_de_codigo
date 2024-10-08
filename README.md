@@ -154,3 +154,38 @@ Crie dentro da pastas src de sua estrutura, a pasta components e popule ela com 
 Renderização Condicional e UseState
 
 Utilize o hook useState do React para criar uma variável de estado booleana vínculada diretamente à renderização de um componente, quando ela for true o componente é renderizado, quando false o componente não é renderizado em tela
+
+🗂️ Dia 34 – 7/10/24
+Renderização Condicional e UseState
+
+Utilize o hook useState do React para criar uma variável de estado booleana vínculada diretamente à renderização de um componente, quando ela for true o componente é renderizado, quando false o componente não é renderizado em tela
+
+🗂️ Dia 35 – 8/10/24
+Criando um contador em React
+
+Crie um componente no react referente à um contador, use o hook useState para adicionar funcionalidade a esse componente.
+
+🗂️ Dia 36 – 9/10/24
+Consumindo API com React
+
+Crie um novo componente em seu projeto React, torne-o responsável por consumir uma API externa com a biblioteca axios, a API à ser consumida deve ser do GitHub. O componente quando renderizado deve exibir os dados do perfil do github da pessoa em nossa página web do projeto.
+
+🗂️ Dia 37 – 10/10/24
+Timer em React
+
+Crie um novo componente em seu projeto React referente à um timer, utilize os hooks useState e useEffect para adicionar funcionalidade à esse timer renderizado na tela da aplicação.
+
+🗂️ Dia 38 – 11/10/24
+Quadro de Tarefas em React - Parte 1
+
+Crie um novo projeto em React e utilizando todos os conceitos aprendidos até aqui, comece a desenvolver um quadro de tarefas interativo, para a 1º parte do projeto você deve inicializar seu projeto react e limpar a estrutura, configurar a utilização da bibliteca tailwind para estilização e criar o primeiro componente do projeto referente ao input (entrada de texto/formulário) possuindo um formulário para adição de tarefas no nosso quadro.
+
+🗂️ Dia 39 – 12/10/24
+Quadro de Tarefas em React - Parte 2
+
+Dando prosseguimento ao projeto, crie vinculado ao formulário de adição, no componente input uma função para lidar esse evento (adição) de uma tarefa, faça com que a tarefa adicionada pelo usuário seja armazenada em um estado ( hook useState ) e seja renderizada na tela de nossa aplicação web
+
+🗂️ Dia 40 – 13/10/24
+Quadro de Tarefas em React - Parte 3
+
+Para concluir o projeto, crie um último componente referente ao quadro de nossa aplicação, onde as tarefas adicionadas pelo usuário serão listadas, lembre-se de manter a comunicação entre os componentes usando props. Adicione também ao projeto um botão de deletar em cada uma das tarefas, para a funcionalidade de apagar uma tarefa específica/concluída.
