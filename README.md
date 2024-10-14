@@ -189,3 +189,38 @@ Dando prosseguimento ao projeto, crie vinculado ao formulário de adição, no c
 Quadro de Tarefas em React - Parte 3
 
 Para concluir o projeto, crie um último componente referente ao quadro de nossa aplicação, onde as tarefas adicionadas pelo usuário serão listadas, lembre-se de manter a comunicação entre os componentes usando props. Adicione também ao projeto um botão de deletar em cada uma das tarefas, para a funcionalidade de apagar uma tarefa específica/concluída.
+
+🗂️ Dia 41 – 14/10/24
+Instalação e Inicialização do Node JS
+
+Instale o Node JS no seu computador, caso não tenha. Inicialize um projeto com node utilizando no terminal o comando npm init -y para começar a estruturar seu primeiro servidor backend
+
+🗂️ Dia 42 – 15/10/24
+Implementando o servidor 
+
+Após criar a estrutura básica do servidor, utilize o framework express para gerenciar diferentes requisições e rotas de forma simples e introdutória
+
+🗂️ Dia 43 – 16/10/24
+Implementando as rotas
+
+Continue explorando o express, framework do node para criar diferentes rotas na sua aplicação, seja criativo na criação de rotas relacionadas ao tipo de projeto que seu backend vai atender. Dica: pense em fazer seu servidor backend para atender um projeto frontend.
+
+🗂️ Dia 44 – 17/10/24
+Utilizando SQLite para criar uma tabela
+
+Utilize o banco de dados SQLite no VSCode, integrado ao seu servidor Node JS para simular um fluxo de conexão backend + banco de dados, crie uma tabela no SQLite.
+
+🗂️ Dia 45 – 18/10/24
+Conectando Frontend e Backend
+
+Crie um projeto React e conecte-o ao servidor backend node js para poder manipular requisições http e o banco de dados SQLite via Frontend
+
+🗂️ Dia 46 – 19/10/24
+Estruturando um projeto Node + Express do zero
+
+Para continuar aprofundando os conceitos cobrados até aqui, inicie novamente do zero uma estrutura backend com node js e express, lembre-se, comece a estrutura com o comando npm init -y. A partir daí instale dependências, crie rotas da API, crie regras de negócio e controladores em seu código para dar funcionalidade ao servidor backend, pense em um projeto específico em mente.
+
+🗂️ Dia 47 – 20/10/24
+Modelagem/Renderização com Loops e Condicionais
+
+Utilize o frontend com React para utilizar do conceito de renderização condicional, porém, utilize o servidor backend para obter a informação necessária refente ao componente condicional ser renderizado ou não. Utilize instruções condicionais (IF, SWITCH) e estruturas de repetição (FOR, WHILE) para manipular e iterar sobre dados do backend em nosso frontend.
