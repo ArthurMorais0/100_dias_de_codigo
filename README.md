@@ -224,3 +224,45 @@ Para continuar aprofundando os conceitos cobrados até aqui, inicie novamente do
 Modelagem/Renderização com Loops e Condicionais
 
 Utilize o frontend com React para utilizar do conceito de renderização condicional, porém, utilize o servidor backend para obter a informação necessária refente ao componente condicional ser renderizado ou não. Utilize instruções condicionais (IF, SWITCH) e estruturas de repetição (FOR, WHILE) para manipular e iterar sobre dados do backend em nosso frontend.
+
+🗂️ Dia 48 – 21/10/24
+Manipulando formulários (POST)
+
+Utilize endpoints criados com Node + Express para manipular dados em um formulário
+
+🗂️ Dia 49 – 22/10/24
+Middlewares
+
+Crie um endpoint que interrompa(venha antes), de todas rotas de sua aplicação, para assim aplicar o conceito de middlewares no node js
+
+🗂️ Dia 50 – 23/10/24
+Login
+
+Utilize os conceitos aprendidos até aqui, e faça um código backend com Node + Express referente à um fluxo de login, faça também um frontend simples para consumir esse fluxo
+
+🗂️ Dia 51 – 24/10/24
+(Python Intermediário)
+Manipulaçao de String 
+
+Utilizando python, escreva um programa que recebe uma frase do usuário e realiza a manipulação da string, 
+realizando operações como contar o número de caracteres, inverter a string e imprimir 
+cada palavra em uma linha.
+
+🗂️ Dia 52 – 25/10/24
+Busca binária
+
+Utilizando python, implemente um programa que realiza a busca binária em uma lista ordenada 
+fornecida pelo usuário.
+
+🗂️ Dia 53 – 26/10/24
+Cálculo de Juros Compostos
+
+Desenvolva um programa que calcula o montante de um investimento com juros 
+compostos, onde o usuário fornece o principal, a taxa de juros e o número de anos.
+
+
+🗂️ Dia 54 – 27/10/24
+Análise de Palavras em um Texto
+
+Escreva um programa que analisa um texto fornecido pelo usuário, contando o número 
+de palavras, frases e caracteres.
