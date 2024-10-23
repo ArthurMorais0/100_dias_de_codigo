@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro e Login</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 50px; }
+    input { margin: 10px 0; padding: 10px; width: 100%; }
+    button { padding: 10px 20px; }
+    h2, h3 { color: #333; }
+  </style>
+</head>
+<body>
+  <h2>Cadastro</h2>
+  <div id="registerForm">
+    <input type="text" id="registerUsername" placeholder="Usuário">
+    <input type="password" id="registerPassword" placeholder="Senha">
+    <button onclick="register()">Cadastrar</button>
+  </div>
+  
+  <h3 id="registerStatus"></h3>
+
+  <h2>Login</h2>
+  <div id="loginForm">
+    <input type="text" id="loginUsername" placeholder="Usuário">
+    <input type="password" id="loginPassword" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+  </div>
+
+  <h3 id="loginStatus"></h3>
+
+
+
+  <script>
+    // Função para cadastro
+    async function register() {
+      const username = document.getElementById('registerUsername').value;
+      const password = document.getElementById('registerPassword').value;
+      
+      const response = await fetch('http://localhost:5000/register', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await response.json();
+      document.getElementById('registerStatus').textContent = data.message;
+    }
+
+    // Função para login
+    async function login() {
+      const username = document.getElementById('loginUsername').value;
+      const password = document.getElementById('loginPassword').value;
+      
+      const response = await fetch('http://localhost:5000/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
+      
+      const data = await response.json();
+      if (response.status === 200) {
+        localStorage.setItem('token', data.token);
+        document.getElementById('loginStatus').textContent = 'Login bem-sucedido!';
+      } else {
+        document.getElementById('loginStatus').textContent = data.message;
+      }
+    }
+  </script>
+</body>
+</html>
