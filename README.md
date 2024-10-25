@@ -249,10 +249,10 @@ realizando operações como contar o número de caracteres, inverter a string e 
 cada palavra em uma linha.
 
 🗂️ Dia 52 – 25/10/24
-Busca binária
+Operadores aritméticos
 
-Utilizando python, implemente um programa que realiza a busca binária em uma lista ordenada 
-fornecida pelo usuário.
+Utilize, em consultas select, no banco de dados passado para vocês operadores aritméticos básicos presentes no MySQL
+
 
 🗂️ Dia 53 – 26/10/24
 Cálculo de Juros Compostos
