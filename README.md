@@ -266,3 +266,45 @@ Análise de Palavras em um Texto
 
 Escreva um programa que analisa um texto fornecido pelo usuário, contando o número 
 de palavras, frases e caracteres.
+
+🗂️ Dia 55 – 28/10/24
+Análise de Sentimento em Texto
+
+Crie um programa que realiza a análise de sentimento de um texto fornecido pelo usuário. O programa deve utilizar uma biblioteca de processamento de linguagem natural (NLP) para identificar se o sentimento do texto é positivo, negativo ou neutro.
+
+🗂️ Dia 56 – 29/10/24
+Manipulação de Arquivos
+
+Crie um programa que lê o conteúdo de um arquivo, conta o número de palavras 
+e imprime na tela.
+
+🗂️ Dia 57 – 30/10/24
+Árvore Binária de Busca
+
+Implemente uma árvore binária de busca e crie funções para inserir e buscar elementos.
+python
+
+🗂️ Dia 58 – 31/10/24
+Gerador de Senhas Aleatórias
+
+Crie um programa que gera senhas aleatórias com uma combinação de letras 
+maiúsculas, minúsculas, números e caracteres especiais.
+
+🗂️ Dia 59 – 01/11/24
+Jogo da Velha
+
+Implemente o jogo da velha para dois jogadores. O programa deve solicitar as jogadas 
+dos jogadores e verificar se houve um vencedor.
+
+
+🗂️ Dia 60 – 02/11/24
+Interface com botões em python
+
+Desenvolva uma interface simples utilizando a biblioteca tkinter do python, com 3 botões, cada botão
+deve chamar uma função que indique que aquele botão foi clicado
+
+🗂️ Dia 61 – 03/11/24
+Django
+Configuração Inicial do Projeto Django
+
+Execute o comando inicial para começar um projeto Django, dentro do projeto recém-criado, comece a desenvolver um aplicativo chamado "Core"
