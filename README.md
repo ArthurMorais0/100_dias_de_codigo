@@ -291,10 +291,10 @@ Crie um programa que gera senhas aleatórias com uma combinação de letras
 maiúsculas, minúsculas, números e caracteres especiais.
 
 🗂️ Dia 59 – 01/11/24
-Jogo da Velha
+Web Scrapping 
 
-Implemente o jogo da velha para dois jogadores. O programa deve solicitar as jogadas 
-dos jogadores e verificar se houve um vencedor.
+Utilizando python, com a biblioteca BeatifulSoup, faça uma técnica denominada web scrapping, que consiste em um código apto à capturar dados de uma página da internet. Capture todos os links de uma página da internet e retorne isso no terminal
+
 
 
 🗂️ Dia 60 – 02/11/24
