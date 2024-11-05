@@ -308,3 +308,73 @@ Django
 Configuração Inicial do Projeto Django
 
 Execute o comando inicial para começar um projeto Django, dentro do projeto recém-criado, comece a desenvolver um aplicativo chamado "Core"
+
+🗂️ Dia 62 – 4/11/24
+Instale o Django
+Execute o comando pip install django para instalar o Django.
+
+Crie um Novo Projeto Django
+Execute o comando django-admin startproject nome_do_projeto para criar um 
+novo projeto Django.
+
+🗂️ Dia 63 – 5/11/24
+Criando um Aplicativo em Django
+
+Crie um Aplicativo Django, dentro do projeto Django, execute o comando python manage.py startapp 
+nome_do_aplicativo  para criar um novo aplicativo Django.
+
+🗂️ Dia 64 – 06/11/24
+Models no Django
+
+Dentro do aplicativo Django, defina modelos utilizando o Django ORM para representar 
+entidades no seu sistema.
+
+🗂️ Dia 65 – 07/11/24
+Migrações no Django
+
+Execute python manage.py makemigrations e python manage.py migrate para 
+criar e aplicar migrações no banco de dados.
+
+
+🗂️ Dia 66 – 08/11/24
+Administração no Django
+
+Registre os modelos no arquivo admin.py do seu aplicativo Django para gerenciar 
+dados através da interface administrativa do Django.
+
+Acesse o Django Admin e adicione alguns produtos ao banco de dados utilizando a 
+interface de administração.
+
+🗂️ Dia 67 – 09/11/24
+Views no Django
+
+Crie templates HTML para renderizar as páginas usando o mecanismo de template 
+do Django.
+
+Desenvolva um template para a página que lista os produtos. Utilize tags do Django 
+template language para exibir as informações dos produtos.
+
+Crie uma view que liste todos os produtos cadastrados. Esta view deve renderizar 
+um template mostrando os detalhes de cada produto.
+
+🗂️ Dia 68 – 10/11/24
+Templates no Django
+
+Crie templates HTML para renderizar as páginas usando o mecanismo de template 
+do Django.
+
+Desenvolva um template para a página que lista os produtos. Utilize tags do Django 
+template language para exibir as informações dos produtos.
+
+Crie uma view que liste todos os produtos cadastrados. Esta view deve renderizar 
+um template mostrando os detalhes de cada produto.
+
+
+🗂️ Dia 69 – 10/11/24
+URLs no Django
+
+Defina padrões de URL no arquivo urls.py para associar URLs a funções ou classes 
+de views.
+
+Crie URLs para a lista de produtos e para uma página detalhada de cada produto. 
+Configure o arquivo urls.py do aplicativo "core".
