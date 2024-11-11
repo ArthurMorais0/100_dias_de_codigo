@@ -370,11 +370,65 @@ Crie uma view que liste todos os produtos cadastrados. Esta view deve renderizar
 um template mostrando os detalhes de cada produto.
 
 
-🗂️ Dia 69 – 10/11/24
+🗂️ Dia 68 – 11/11/24
 URLs no Django
 
 Defina padrões de URL no arquivo urls.py para associar URLs a funções ou classes 
 de views.
 
 Crie URLs para a lista de produtos e para uma página detalhada de cada produto. 
-Configure o arquivo urls.py do aplicativo "core".
+Configure o arquivo urls.py do aplicativo "core".
+
+🗂️ Dia 69 – 12/11/24
+Formulários no Django
+Utilize Django Forms para criar formulários que podem ser renderizados em 
+templates e processados em views.
+
+Crie um formulário para adicionar novos produtos ao estoque. A view correspondente 
+deve processar este formulário e adicionar os dados ao banco de dados.
+
+🗂️ Dia 70 – 13/11/24
+Autenticação no Django
+
+Adicione autenticação de usuários ao seu projeto Django usando as funcionalidades 
+embutidas do Django, como django.contrib.auth.
+
+Configure a autenticação para permitir que usuários autenticados possam adicionar 
+produtos. 
+Crie uma página de login e teste a autenticação no seu sistema Django.
+
+Ao explorar novas funcionalidades, consulte a documentação oficial do Django e considere adicionar recursos como:
+
+* Paginação para listagens longas.
+* Implementação de API REST usando Django Rest Framework.
+* Utilização de middleware para manipulação de requisições.
+
+🗂️ Dia 71 – 14/11/24 - SQL
+SELECT e Consultas básicas
+
+Dentro do aplicativo MySQL Workbench, faça consultas utilizando a instrução SELECT do SQL, para recuperar dados no banco de dados empresa:
+https://github.com/FernandoZuchi/BancoDeDados-Aplicados/blob/master/Aula20_05/empresa.sql
+
+🗂️ Dia 72 – 15/11/24
+Operadores Aritméticos
+
+Utilize, em consultas select, no banco de dados passado para vocês operadores aritméticos básicos presentes no MySQL
+
+🗂️ Dia 73 – 16/11/24
+Apelidos & Distinct
+
+Utilize os conceitos de Apelidos e Distinct, para fazer consutlas 
+
+Acesse o Django Admin e adicione alguns produtos ao banco de dados utilizando a 
+interface de administração.
+
+🗂️ Dia 74 – 17/11/24
+Operador Like
+
+Utilize o operador LIKE em consultas SQL no MySQL para buscar padrões específicos de texto no banco de dados fornecido.
+
+
+🗂️ Dia 75 – 18/11/24
+Operador Between
+
+Aplique o operador BETWEEN em consultas SQL no MySQL para filtrar resultados dentro de um intervalo específico de valores no banco de dados fornecido.
